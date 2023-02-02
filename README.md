@@ -14,11 +14,6 @@ Yesenia- Peche Vergaray  / https://github.com/LizetPV
 
 * proyecto - cardValidationB
 * [2. Objetivos de aprendizaje 
-* [4. Hito: Criterios de aceptación mínimos del proyecto](#4-hito-criterios-de-aceptación-mínimos-del-proyecto)
-* [5. Hito Opcional: Mostrar la franquicia de tarjeta](#5-hito-opcional-mostrar-la-franquicia-de-tarjeta)
-* [6. Consideraciones técnicas](#6-consideraciones-técnicas)
-* [7. Pistas, tips y lecturas complementarias](#8-pistas-tips-y-lecturas-complementarias)
-* [8. Para considerar Project Feedback](#9-para-considerar-project-feedback)
 
 ***
 
