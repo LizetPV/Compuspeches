@@ -1,0 +1,18 @@
+body{margin: 0; padding: 0; display: flex; justify-content: center; align-items: center;
+height: 100vh;background: #81f8bb5b;font-family:consolas;
+}
+.control1 {background:rgb(179, 116, 192);color:rgb(243, 237, 237);font-size:28px;
+}
+.control2 {border:double;background:rgb(231, 231, 229);color:rgb(182, 63, 247);font-size:20px;
+}
+.alert{ color: rgb(252, 75, 75);
+
+}
+.name{border:double;background:rgb(231, 231, 229);color:rgb(182, 63, 247);font-size:20px;
+}
+.mes{border:double;background:rgb(231, 231, 229);color:rgb(182, 63, 247);font-size:20px;
+}
+.año{border:double;background:rgb(231, 231, 229);color:rgb(182, 63, 247);font-size:20px;
+}
+.digts{border:double;background:rgb(231, 231, 229);color:rgb(182, 63, 247);font-size:20px;
+}
