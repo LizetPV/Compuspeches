@@ -1,10 +1,19 @@
-# Tarjeta de crédito válida
+# Proyecto cardValidatio - Laboratoria
+<img src="https://user-images.githubusercontent.com/99364311/214476067-d093f1d2-8bcd-4e7a-a9b0-30b787203bd3.png" alt="Logo" width="220px">
+<br/>
+ <br/>
+ <br/>
+ <b>Autora</b>
+<br/>
+[Yesenia- Peche Vergaray] (https://github.com/LizetPV)
+<p align="center">
+       </summary>
+<br/>
 
 ## Índice
 
 * [1. Preámbulo](#1-preámbulo)
 * [2. Objetivos de aprendizaje generales](#2-objetivos-de-aprendizaje-generales)
-* [3. Consideraciones generales](#3-consideraciones-generales)
 * [4. Hito: Criterios de aceptación mínimos del proyecto](#4-hito-criterios-de-aceptación-mínimos-del-proyecto)
 * [5. Hito Opcional: Mostrar la franquicia de tarjeta](#5-hito-opcional-mostrar-la-franquicia-de-tarjeta)
 * [6. Consideraciones técnicas](#6-consideraciones-técnicas)
