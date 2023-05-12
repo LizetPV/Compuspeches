@@ -1,42 +1,86 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <meta charset="utf-8">
-    <title>Tarjeta de crédito válida</title>
-    <link rel="stylesheet" href="style.css" />
-  </head>
-  <body>
-    <header></header>
-    <form>
-    <main class="dato">
-      <input class="control2"  type="text" id="cardnumber" placeholder="Ingrese 16 digitos">
-      <p  class="alert" id="texVacio"></p>  
+
+<head>
+  <meta charset="utf-8">
+  <meta name="description" content="Primer documento HTML">
+  <meta name="keywords" content="HTML, CSS, JS">
+  <meta name="author" content="Yesenia Peche">
+  <meta name="viewport" content="width-device-width,initial-scale-1.0"> <!--es para se maneje de manera responsiva-->
+  <title>www.tintobar.com</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+  <header>
+    <ul>
+      <li><img src="./imagenes/logo.png" alt="Logo de tintobar"></li>
+    </ul>
+    <nav>
+
+      <ul>
+
+        <li><a href="#">Empresa</a></li>
+        <li><a href="#">Eventos Sociales</a></li>
+        <li><a href="#">Eventos Corporativos</a></li>
+        <li><a href="#">Contactanos</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <section>
+    <article>
+      <main class="dato">
+        <input class="control2" type="text" id="cardnumber" placeholder="Ingrese 16 digitos">
+        <p class="alert" id="texVacio"></p>
       </main>
-    <div >
-      <p>
-        <input  class="name" id="name" name="name" placeholder="full name with space" />
-    </p>    
-    </div>
-    <div>
-      <p>
-       
-      <input class="mes" id="expMonth" name="exp" placeholder="month" />
-     
-    <input  class="año" id="expYear" name="exp" placeholder="year" />
-  </p>
-  </div>
       <div>
         <p>
-          
-      <input class="digts" id="cvv" name="cvv" placeholder="3 digits"/>
-    </p>
-    </div>
-      
+          <input class="name" id="name" name="name" placeholder="full name with space" />
+        </p>
+      </div>
       <div>
-      <input class="control1" id="boton" type="button" value="Validar"></button>
-    </div>
-    </form>           
-    <script src="index.js" type="module"></script>
-    <script src="readme.mp" type="module"></script>
-  </body>
+        <p>
+
+          <input class="mes" id="expMonth" name="exp" placeholder="month" />
+
+          <input class="año" id="expYear" name="exp" placeholder="year" />
+        </p>
+      </div>
+      <div>
+        <p>
+
+          <input class="digts" id="cvv" name="cvv" placeholder="3 digits" />
+        </p>
+      </div>
+
+      <div>
+        <input class="control1" id="boton" type="button" value="Validar"></button>
+      </div>
+    </article>
+    <aside>
+      <table style="width: 100%;">
+        <tr>
+          <th>Company</th>
+          <th>Contact</th>
+          <th>Country</th>
+        </tr>
+        <tr>
+          <td>Alfreds Futterkiste</td>
+          <td>Maria Anders</td>
+          <td>Germany</td>
+        </tr>
+        <tr>
+          <td>Centro comercial Moctezuma</td>
+          <td>Francisco Chang</td>
+          <td>Mexico</td>
+        </tr>
+      </table>
+    </aside>
+  </section>
+  <script src="index.js" type="module"></script>
+  <script src="readme.mp" type="module"></script>
+</body>
+<footer>Desarrollado por Yesenia Peche</footer>
+
 </html>
