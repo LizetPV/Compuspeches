@@ -1,0 +1,50 @@
+#logo1 {
+  background-color: #cccccc;
+  height: 20px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+#listNav ul {
+    list-style-type: none;  /* Elimina los marcadores de lista */
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+  }
+  
+  #listNav li {
+    margin-right: 10px;
+  }
+  
+  #listNav li:last-child {
+    margin-right: 0;
+  }
+  
+  #listNav li a {
+    text-decoration: none;
+    color: black;
+  }
+ 
+  #aside1ul {
+    list-style-type: none;  /* Elimina los marcadores de lista */
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+  }
+  
+  #aside1 li {
+    margin-right: 10px;
+  }
+  
+  #aside1 li:last-child {
+    margin-right: 0;
+  }
+  
+  #aside1 li a {
+    text-decoration: none;
+    color: black;
+  }
