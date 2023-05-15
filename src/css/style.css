@@ -176,22 +176,3 @@ div a {
   transition: background-color 0.3s ease;
 }
 
-a[name="empresa"] {
-  display: none;
-}
-
-a[name="gamer"] {
-  display: none;
-}
-
-a[name="pc"] {
-  display: none;
-}
-
-a[name="otros"] {
-  display: none;
-}
-
-a[name="contacto"] {
-  display: none;
-}
