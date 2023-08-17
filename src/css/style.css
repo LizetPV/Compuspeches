@@ -1,6 +1,34 @@
 * {
-  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Arial, sans-serif';
   margin: 0;
+  padding: 0;
+}
+
+html {
+  /* me permite deslizar cuando hago clic en los links del menu */
+  scroll-behavior: smooth;
+}
+
+.contenedor-header {
+  background: #0c0c0c;
+  color: #fff;
+  position: fixed;
+  width: 100%;
+  top: 0;
+  left: 0;
+  z-index: 99;
+  justify-content: center;
+}
+
+#logo1 img {
+  margin-top: 40px;
+  border: px solid#fff;
+  display: block;
+  width: 7.5%;
+  margin: auto;
+  border-radius: 80%;
+  /* border-radius: 100%; este codigo es para el borde de la foto aparezca en circulo */
 }
 
 body {
@@ -62,21 +90,30 @@ body {
 }
 
 #empresa h3 {
-  color: #333;
   font-size: 24px;
   margin-bottom: 10px;
+  font-size: 48px;
+  font-family: "Helvetica Neue", sans-serif;
+  text-align: center;
+  padding: 20px 0;
+  color: #7A7A7A;
 }
 
 #empresa p {
-  color: #777;
-  font-size: 16px;
+  font: 18px;
+  line-height: 22px;
+  margin-bottom: 20px;
+  font-family: 0.01px;
+  font-family: "Helvetica Neue", sans-serif;
 }
+
 /* Fondo */
 
 #productos {
-  display: grid;
-  grid-template-columns: repeat(2, 1fr);
   grid-gap: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
 }
 
 .contenedor {
@@ -89,16 +126,45 @@ body {
 .contenedor img {
   width: 100%;
   height: auto;
-  vertical-align: middle;
+  /* vertical-align: middle; */
+  display: block;
 }
 
 .contenedor h2 {
+  font-size: 24px;
   margin-bottom: 10px;
+  font-size: 20px;
+  font-family: "Helvetica Neue", sans-serif;
+  padding: 20px 0;
+  color: #7A7A7A;
+  font-weight: normal;
+  color: #fff;
 }
 
 .contenedor p {
   margin-bottom: 5px;
+  font: 18px;
+  line-height: 22px;
+  margin-bottom: 20px;
+  font-family: 0.01px;
+  font-family: "Helvetica Neue", sans-serif;
 }
+
+#productos img {
+  width: 100%;
+  display: block;
+  border-radius: 5%;
+}
+.container  h2{
+text-align: center;
+color: #7A7A7A;
+}
+.container  p{
+  margin-bottom: 40px;
+  text-align: center;
+  color: #7A7A7A;
+
+  }
 
 table,
 th,
@@ -111,22 +177,32 @@ td {
 }
 
 #cardValidation {
-  background-color: #f8f8f8;
+  
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 100vh;
+  
+
 }
 
 #cardValidation article {
-  background-color: #fff;
-  padding: 30px;
+  background-color: #f7fde0;
+  padding: 20px;
   border-radius: 5px;
-  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  height: 400px;
+  width: 500px;
+  margin: 10px;
+  justify-content: center;
+}
+
+#cardValidation-article {
+  height: 20px;
+  width: 40px;
+
 }
 
 #cardValidation .form-container {
-  max-width: 400px;
+  max-width: 200px;
   margin: 0 auto;
 }
 
@@ -170,9 +246,8 @@ div a {
   display: inline-block;
   padding: 10px 20px;
   background-color: hsl(340, 98%, 51%);
-  color: #fff;
+  color: #0c0b0b;
   text-decoration: none;
   border-radius: 5px;
   transition: background-color 0.3s ease;
 }
-
